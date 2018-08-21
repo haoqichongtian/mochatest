@@ -1,0 +1,17 @@
+{
+  "name": "asserttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "cover":"istanbul cover node_modules/mocha/bin/_mocha test/simple.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  }
+}

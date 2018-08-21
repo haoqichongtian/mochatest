@@ -26,7 +26,7 @@ describe('#math',()=>{
             assert.equal(cover(2,1),1);
         })
         it('shoule return 1111 when cover(2,4)',()=>{
-            assert.equal(cover(2,2),3);
+            assert.equal(cover(2,2),4);
         })
         it('shoule return 1 when cover(2,2)',()=>{
             assert.equal(cover(2,3),1);
